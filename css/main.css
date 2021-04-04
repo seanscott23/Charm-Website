@@ -2064,10 +2064,10 @@ input::-moz-focus-inner {
   position: relative;
 }
 
-.home-content h1 {
+.home-content .home-title {
   font-family: "Chivo", sans-serif;
   font-weight: 600;
-  font-size: 7.2rem;
+  font-size: 4rem;
   line-height: 1.222;
   color: #ffffff;
   margin-top: 0;
@@ -2076,7 +2076,7 @@ input::-moz-focus-inner {
   position: relative;
 }
 
-.home-content h1::before {
+.home-content .home-title::before {
   display: block;
   content: "";
   height: 2px;
