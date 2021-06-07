@@ -1760,9 +1760,9 @@ input::-moz-focus-inner {
   color: black;
 }
 
-.header-nav-wrap .header-main-nav li.current a {
-  color: black;
-}
+/* .header-nav-wrap .header-main-nav li.current a {
+  color: white;
+} */
 
 .header-nav-wrap .header-cta {
   -webkit-transform: translate3d(0, -50%, 0);
@@ -1917,7 +1917,7 @@ input::-moz-focus-inner {
 
 @media only screen and (max-width: 800px) {
   .s-header {
-    background-color: #000000;
+    background-color: #000000 !important;
     position: fixed;
     top: 0;
   }
@@ -1962,6 +1962,7 @@ input::-moz-focus-inner {
   .header-nav-wrap .header-main-nav li a {
     padding: 18px 0;
     line-height: 18px;
+    color: white;
   }
 
   .header-nav-wrap .header-cta {
