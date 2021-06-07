@@ -80,7 +80,7 @@ body {
 }
 
 body {
-  background: #121619;
+  background: white;
   font-family: "Nunito Sans", sans-serif;
   font-size: 1.8rem;
   font-style: normal;
@@ -95,7 +95,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #fea7a7;
+  color: black;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -167,7 +167,7 @@ h6,
 }
 
 #home-description {
-  color: white;
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1683,7 +1683,7 @@ input::-moz-focus-inner {
 }
 
 .s-header.sticky {
-  background-color: #000000;
+  background-color: white;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   position: fixed;
@@ -1750,18 +1750,18 @@ input::-moz-focus-inner {
 .header-nav-wrap .header-main-nav li a {
   display: block;
   line-height: 78px;
-  color: rgba(255, 255, 255, 0.5);
+  color: black;
   outline: none;
   position: relative;
 }
 
 .header-nav-wrap .header-main-nav li a:hover,
 .header-nav-wrap .header-main-nav li a:focus {
-  color: #ffffff;
+  color: black;
 }
 
 .header-nav-wrap .header-main-nav li.current a {
-  color: #ffffff;
+  color: black;
 }
 
 .header-nav-wrap .header-cta {
@@ -2031,7 +2031,7 @@ input::-moz-focus-inner {
   width: 100%;
   height: 100%;
   opacity: 0.8;
-  background-color: #000000;
+  /* background-color: #000000; */
 }
 
 .s-home .shadow-overlay {
@@ -2069,7 +2069,7 @@ input::-moz-focus-inner {
   font-weight: 600;
   font-size: 4rem;
   line-height: 1.222;
-  color: #ffffff;
+  color: black;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 3.2rem;
@@ -2206,7 +2206,7 @@ input::-moz-focus-inner {
   display: block;
   height: 5.6rem;
   width: 5.6rem;
-  background-color: rgba(255, 255, 255, 0.05);
+  background-color: black;
   background-image: url(../images/icons/icon-arrow-down.svg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -3606,7 +3606,7 @@ html.no-csstransitions .home-content__main {
 .s-footer {
   padding-top: 18.4rem;
   padding-bottom: 4.8rem;
-  color: rgba(255, 255, 255, 0.4);
+  color: black;
   position: relative;
 }
 
@@ -3631,7 +3631,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-footer p.lead {
-  color: rgba(255, 255, 255, 0.3);
+  color: black;
 }
 
 .s-footer .footer__mail-link {
@@ -3670,8 +3670,7 @@ html.no-csstransitions .home-content__main {
   font-size: 1.8rem;
   line-height: 3.2rem;
   padding: 1.8rem 140px 1.8rem 64px;
-  background: url(../images/icons/icon-mail.svg) 24px center no-repeat,
-    rgba(255, 255, 255, 0.03);
+  background: url(../images/icons/icon-mail.svg) 24px center no-repeat, black;
   background-size: 24px 16px, auto;
   color: white;
   margin-bottom: 2rem;
