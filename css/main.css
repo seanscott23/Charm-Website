@@ -1717,7 +1717,7 @@ input::-moz-focus-inner {
 
 .header-logo img {
   width: 130px;
-  height: 36px;
+  /* height: 36px; */
 
   /* margin-bottom: 15px; */
 }
