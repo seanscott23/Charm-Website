@@ -3637,11 +3637,11 @@ html.no-csstransitions .home-content__main {
   color: #fea7a7;
 }
 
-.s-footer .footer__mail-link:hover,
+/* .s-footer .footer__mail-link:hover,
 .s-footer .footer__mail-link:focus,
 .s-footer .footer__mail-link:active {
   color: #ffffff;
-}
+} */
 
 .footer__bottom {
   margin-top: 1.6rem;
