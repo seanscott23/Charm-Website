@@ -265,8 +265,10 @@
               method="POST"
               enctype="text/plain"
               name="EmailForm"
-              autocomplete="on"
+              autocomplete="off"
             >
+              <input type="text" style="display: none" />
+
               <input
                 type="email"
                 value=""
@@ -275,9 +277,15 @@
                 id="mc-email"
                 placeholder="Email Address"
                 required=""
+                autocomplete="off"
               />
 
-              <input type="submit" name="subscribe" value="Sign Up" />
+              <input
+                type="submit"
+                name="subscribe"
+                value="Sign Up"
+                autocomplete="off"
+              />
 
               <label for="mc-email" class="subscribe-message"></label>
             </form>
