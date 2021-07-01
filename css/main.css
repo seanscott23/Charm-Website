@@ -3797,7 +3797,7 @@ html.no-csstransitions .home-content__main {
 
 .footer__site-links li a,
 .footer__site-links li a:visited {
-  color: rgba(255, 255, 255, 0.4);
+  color: black;
   outline: none;
 }
 
