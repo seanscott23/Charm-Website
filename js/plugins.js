@@ -315,7 +315,7 @@ Options:
 options = {
     language: 'en',
     callback: callbackFunction,
-    url: "https://proxiitheapp.us6.list-manage.com/subscribe/post-json?u=0c58a7930a1c9d09cd89b69fb&amp;id=a2d7a7ec32&c=?"
+    url: "https://proxiitheapp.us6.list-manage.com/subscribe/post?u=0c58a7930a1c9d09cd89b69fb&amp;id=a2d7a7ec32"
 }
 
 Notes:

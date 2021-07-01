@@ -4,7 +4,7 @@
   var cfg = {
       scrollDuration: 800, // smoothscroll duration
       mailChimpURL:
-        "https://proxiitheapp.us6.list-manage.com/subscribe/post-json?u=0c58a7930a1c9d09cd89b69fb&amp;id=a2d7a7ec32&c=?", // mailchimp url
+        "https://proxiitheapp.us6.list-manage.com/subscribe/post?u=0c58a7930a1c9d09cd89b69fb&amp;id=a2d7a7ec32", // mailchimp url
     },
     $WIN = $(window);
 
