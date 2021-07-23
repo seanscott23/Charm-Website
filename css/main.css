@@ -971,7 +971,7 @@ input[type="button"] {
   display: inline-block;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 700;
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   text-transform: uppercase;
   letter-spacing: 0.4rem;
   height: 6rem;
@@ -2573,7 +2573,7 @@ html.no-csstransitions .home-content__main {
 
   .home-content__right {
     width: 300px;
-    margin-top: -24rem;
+    /* margin-top: -24rem; */
   }
 
   .home-content__btn-wrap .home-content__btn {
@@ -2610,7 +2610,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-about p.lead {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
 }
 
 /* ------------------------------------------------------------------- 
@@ -3509,7 +3509,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-download p.lead {
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
 }
 
 .s-download .download-badges {
@@ -3589,7 +3589,7 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 600px) {
   .s-download {
-    padding-top: 14.8rem;
+    padding-top: 10rem;
   }
 
   .s-download .download-bottom-image {
@@ -3635,6 +3635,7 @@ html.no-csstransitions .home-content__main {
 .s-footer .footer__mail-link {
   font-weight: 800;
   color: #fea7a7;
+  font-size: 1.2em;
 }
 
 /* .s-footer .footer__mail-link:hover,
@@ -3644,8 +3645,8 @@ html.no-csstransitions .home-content__main {
 } */
 
 .footer__bottom {
-  margin-top: 1.6rem;
-  padding-top: 3.9rem;
+  /* margin-top: 1.6rem;
+  padding-top: 3.9rem; */
   border-top: 1px solid rgba(255, 255, 255, 0.03);
 }
 
@@ -3907,9 +3908,9 @@ html.no-csstransitions .home-content__main {
     padding-top: 14.8rem;
   }
 
-  .footer__bottom .right {
+  /* .footer__bottom .right {
     margin-top: 5.6rem;
-  }
+  } */
 }
 
 @media only screen and (max-width: 600px) {
