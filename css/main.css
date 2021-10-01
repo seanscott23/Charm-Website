@@ -3608,6 +3608,11 @@ html.no-csstransitions .home-content__main {
   position: relative;
 }
 
+#footer_cookie {
+  color: black;
+  font-size: 1em;
+}
+
 .s-footer a {
   color: #ffffff;
 }
