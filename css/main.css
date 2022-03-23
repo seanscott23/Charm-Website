@@ -3769,6 +3769,9 @@ html.no-csstransitions .home-content__main {
   padding: 0;
   margin-right: 4px;
 }
+.news-art {
+  margin-right: 40px;
+}
 
 .footer__social li a {
   display: block;
@@ -3776,7 +3779,7 @@ html.no-csstransitions .home-content__main {
   height: 36px;
   width: 36px;
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.03);
+  background-color: #fea7a7;
   color: #ffffff;
   border-radius: 50%;
 }
